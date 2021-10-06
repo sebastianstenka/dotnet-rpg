@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace dotnet_rpg.Models
 {
     public class Character
@@ -10,6 +12,10 @@ namespace dotnet_rpg.Models
         public int Intelligence { get; set; } = 10;
         public RpgClass Class { get; set; }
         public User User { get; set; }
-
+        public Weapon Weapon { get; set; }
+        public List<CharacterSkill> CharacterSkills { get; set; }
+        public int Fights { get; set; }
+        public int Victories { get; set; }
+        public int Defeats { get; set; }
   }
 }
