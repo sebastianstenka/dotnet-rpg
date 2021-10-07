@@ -9,5 +9,6 @@ namespace dotnet_rpg.Models
         public byte[] PasswordHash { get; set; }
         public byte[] PasswordSalt { get; set; }
         public List<Character> Characters { get; set; }
+        public string Role { get; set; }
   }
 }
